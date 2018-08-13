@@ -2,7 +2,7 @@ import datetime
 from flask import Flask, Response, jsonify
 from github import Github
 
-client = Github('amitpp', 'pandey23')
+client = Github()
 app = Flask(__name__)
 
 
